@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dbt_vault_source
+    database: DBT
+    schema: DBT_DEMO
+    tables:
+      - name: orders
+      - name: customer
+      - name: part
+      - name: partsupp
+      - name: region
+      - name: supplier
+      - name: lineitem
+      - name: nation
